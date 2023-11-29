@@ -1,0 +1,67 @@
+
+Scrivere per i seguenti IP:
+IP Network, IP Gateway 'convenzionale', IPP Broadcast, quali e quanti ottetti per gli host, quanti e quali per la network.
+
+- 1.1.1.1/8
+11111111.00000000.00000000.00000000
+256-255=1 (255 è il numero in decimale dell'ottetto interessato)
+ottetti network: 1. Il 1° ottetto - 8 bit
+ottetti host: 3. Il 2°,3° e 4° ottetto - 24 bit
+IP Network: 1.0.0.0/8
+IP Broadcast: 1.255.255.255/8
+IP Broadcast: 1.0.0.1/8
+
+- 128.1.6.5/12
+11111111.11110000.00000000.00000000
+256-240=16
+ottetti network: 1 e 4 bit, Il 1° e metà 2° - 12 bit.
+ottetti host: 3 ottetti e 4 bit. Metà 2°, 3° e 4°. - 20 bit.
+IP Network: 128.0.0.0/12
+IP Broadcast: 128.15.255.255/12
+IP Gateway: 128.0.0.1/12
+
+- 200.1.2.3/24
+11111111.11111111.11111111.00000000
+256-255=1
+ottetti network: 3. Il 1°, 2° e 3°. - 24 bit.
+ottetti host: 1. Il 4°. - 8 bit.
+IP Network: 200.1.2.0/24
+IP Broadcast: 200.1.2.255/24
+IP Gateway: 200.1.2.1/24
+
+- 192.192.1.1/22
+11111111.11111111.11111100.00000000
+256-252=4
+ottetti network: 3. Il 1°, 2° e 6 bit. - 22 bit.
+ottetti host: 1 e 2 bit. Il 4° e 2 bit. - 10 bit.
+IP Network: 192.192.0.0/22
+IP Broadcast: 192.192.3.255/22
+IP Gateway: 192.192.0.1/22
+
+- 126.5.4.3/9
+11111111.10000000.00000000.00000000
+256-128=128
+ottetti network: 1 e 1 bit. Il 1° e 1 bit. - 9 bit.
+ottetti host: 2 e 7 bit. Il 3°, 4° e 7 bit. - 23 bit.
+IP Network: 126.0.0.0/9
+IP Broadcast: 126.127.255.255/9
+IP Gateway: 126.0.0.1/9
+
+- 200.1.9.8/24
+11111111.11111111.11111111.00000000
+256-255=1
+ottetti network: 3. Il 1°, 2°, 3°. - 24 bit.
+ottetti host: 1. Il 4°. - 8 bit.
+IP Network: 200.1.9.0/24
+IP Broadcast: 200.1.9.255/24
+IP Gateway: 200.1.9.1/24
+
+- 172.16.0.4/16
+11111111.11111111.00000000.00000000
+256-255=1
+ottetti network: 2. Il 1° e 2°. - 16 bit.
+ottetti host: 2. Il 3° e 4°. - 16 bit.
+IP Network: 172.16.0.0/16
+IP Broadcast: 172.16.255.255/16
+IP Gateway: 172.16.0.1/16
+
